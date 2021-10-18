@@ -1,0 +1,7 @@
+just.bonjour:
+  path: '/bonjour'
+  defaults:
+    _controller: '\Drupal\just\Controller\JustController::hello'
+    _title: 'My first page in D8'
+  requirements:
+    _permission: 'access content'
